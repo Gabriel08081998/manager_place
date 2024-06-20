@@ -1,15 +1,38 @@
-# Compiled class file
-*.class
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Log file
-*.log
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# BlueJ files
-*.ctxt
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
+<<<<<<< HEAD
+### VS Code ###
+.vscode/
+=======
 # Package Files #
 *.jar
 *.war
@@ -22,3 +45,5 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+target/classes/google/sightseeing-tour-4dcd1-firebase-adminsdk-sp3f8-feeacb7974.json
+>>>>>>> f1294d7 (Remove Google Cloud Service Account credentials)
